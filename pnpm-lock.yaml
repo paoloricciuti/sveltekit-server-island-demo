@@ -832,7 +832,7 @@ packages:
     engines: {node: '>=18'}
 
   sveltekit-islands@file:sveltekit-islands-0.0.1.tgz:
-    resolution: {integrity: sha512-3iVdH0XHAImu1o2+F3wiPhrodfoqJyq6gpg3Sfz8gutwSdETKx0InXfROs0GbljuonqeO6Z9sqmxwXP/bEN8cA==, tarball: file:sveltekit-islands-0.0.1.tgz}
+    resolution: {integrity: sha512-Qq6oCKz3cCN4SrY7qd7of4QyxB9Ld7aNwuhP/k28394L3zdMSeH7/8+BbBJ/cgEcESgwxR53BOsfexKKV1uRvw==, tarball: file:sveltekit-islands-0.0.1.tgz}
     version: 0.0.1
     peerDependencies:
       svelte: ^5.0.0
