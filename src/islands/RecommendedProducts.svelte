@@ -95,7 +95,7 @@
 <div class="space-y-6">
 	<div>
 		<div class="text-lg font-medium text-white">
-			Recommended trips <span class="text-teal-300">for you</span>
+			Recommended trips <span class="text-orange-300">for you</span>
 		</div>
 		<div class="text-sm text-gray-400">
 			Based on your preferences and travel history
@@ -110,7 +110,7 @@
 							{#if tag}
 								<div class="absolute left-2 top-2 z-10 flex">
 									<div
-										class="rounded bg-gray-950/60 bg-gradient-to-tl from-teal-950/40 to-teal-600/40 border border-teal-600 px-1.5 text-xs font-medium leading-5 text-white"
+										class="rounded bg-gray-950/60 bg-gradient-to-tl from-orange-950/40 to-orange-600/40 border border-orange-600 px-1.5 text-xs font-medium leading-5 text-white"
 									>
 										{tag}
 									</div>
@@ -126,7 +126,7 @@
 							/>
 						</div>
 						<div
-							class="truncate text-sm font-medium text-white group-hover:text-teal-300"
+							class="truncate text-sm font-medium text-white group-hover:text-orange-300"
 						>
 							{title}
 						</div>
@@ -134,7 +134,7 @@
 						<div class="flex gap-x-1.5 items-center">
 							{#if discount}
 								<div
-									class="hidden sm:block px-2 rounded-full text-sm font-bold leading-snug bg-gradient-to-tl from-teal-950/40 to-teal-600/40 border border-teal-600"
+									class="text-white hidden sm:block px-2 rounded-full text-sm font-bold leading-snug bg-gradient-to-tl from-orange-950/40 to-orange-600/40 border border-orange-600"
 								>
 									{discount}
 								</div>
@@ -144,7 +144,7 @@
 									class={[
 										'text-lg font-bold leading-snug',
 										discount
-											? 'text-teal-300'
+											? 'text-orange-300'
 											: 'text-white',
 									]}
 								>
@@ -160,7 +160,7 @@
 							{/if}
 						</div>
 						{#if cta}
-							<div class="text-sm text-teal-300">{cta}</div>
+							<div class="text-sm text-orange-300">{cta}</div>
 						{/if}
 					</div>
 				</div>

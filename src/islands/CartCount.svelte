@@ -17,9 +17,9 @@
 <span
 	id="cart-count"
 	hidden={data?.count === 0}
-	class:list={[
+	class={[
 		'[&[hidden]]:hidden',
 		'flex h-4 min-w-4 px-1 items-center justify-center rounded-full text-xs font-bold text-white',
-		'bg-gradient-to-tl from-teal-950 to-teal-700 border border-teal-600',
+		'bg-gradient-to-tl from-orange-950 to-orange-700 border border-orange-600',
 	]}>{data?.count}</span
 >

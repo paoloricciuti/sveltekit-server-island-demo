@@ -14,9 +14,9 @@
 </script>
 
 <p
-	class="text-white bg-gradient-to-tl from-teal-950/40 to-teal-600/40 border border-teal-600 rounded-lg text-center p-1"
+	class="text-white bg-gradient-to-tl from-orange-950/40 to-orange-600/40 border border-orange-600 rounded-lg text-center p-1"
 >
-	Just <strong class="font-bold text-teal-300"
+	Just <strong class="font-bold text-orange-300"
 		>{data?.rooms_remaining} rooms</strong
 	>
 	left!

@@ -79,7 +79,7 @@
 
 <div class="space-y-6">
 	<div class="text-lg font-medium text-white">
-		<span class="text-teal-300">Selected</span> customer reviews
+		<span class="text-orange-300">Selected</span> customer reviews
 	</div>
 	<div class="space-y-8">
 		{#each data?.reviews ?? [] as { name, stars, review }}
