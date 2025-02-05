@@ -21,6 +21,7 @@
 
 <svelte:window
 	oncart={() => {
+		console.log('working?');
 		if (!writable_count.current) {
 			writable_count.current = 0;
 		}
