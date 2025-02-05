@@ -2,7 +2,6 @@
 	import AddToCart from '$lib/AddToCart.svelte';
 	import Stars from '$lib/Stars.svelte';
 	import mainProductImg from '../imgs/thailand.avif';
-	import userImg from '../imgs/user.avif';
 	import CartCount from '../islands/CartCount.svelte';
 	import CustomerReviews from '../islands/CustomerReviews.svelte';
 	import RecommendedProducts from '../islands/RecommendedProducts.svelte';

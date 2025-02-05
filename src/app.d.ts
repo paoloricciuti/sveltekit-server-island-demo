@@ -10,4 +10,10 @@ declare global {
 	}
 }
 
+declare module 'svelte/elements' {
+	interface HTMLAttributes<T> {
+		oncart?: () => void;
+	}
+}
+
 export {};

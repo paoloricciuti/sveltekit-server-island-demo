@@ -1100,7 +1100,7 @@ packages:
     engines: {node: '>=18'}
 
   sveltekit-islands@file:sveltekit-islands-0.0.1.tgz:
-    resolution: {integrity: sha512-Qq6oCKz3cCN4SrY7qd7of4QyxB9Ld7aNwuhP/k28394L3zdMSeH7/8+BbBJ/cgEcESgwxR53BOsfexKKV1uRvw==, tarball: file:sveltekit-islands-0.0.1.tgz}
+    resolution: {integrity: sha512-thR7kMzynkj9KSk6VmAmriiwW19ZiAV0tSY7ISKujeKuw1CFMCCMZwSuXDmlmHlS8dLglb+c87sm1K/kRwOWBQ==, tarball: file:sveltekit-islands-0.0.1.tgz}
     version: 0.0.1
     peerDependencies:
       svelte: ^5.0.0
