@@ -3,7 +3,7 @@
 </script>
 
 <button
-	class="relative flex w-full items-center justify-center rounded-lg bg-gray-600 px-3 py-1 text-sm font-medium text-white hover:bg-sky-600 disabled:text-white/70 disabled:bg-gray-600 mt-4"
+	class="relative flex w-full items-center justify-center rounded-lg bg-gray-600 px-3 py-1 text-sm font-medium text-white hover:bg-orange-600 disabled:text-white/70 disabled:bg-gray-600 mt-4"
 	onclick={async () => {
 		loading = true;
 		window.dispatchEvent(new CustomEvent('cart'));
