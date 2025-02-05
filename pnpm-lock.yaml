@@ -18,8 +18,8 @@ importers:
         specifier: ^5.5.3
         version: 5.5.3(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.6)(vite@6.0.11(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.6)(vite@6.0.11(jiti@1.21.7)(yaml@2.7.0)))(rollup@4.32.1)
       sveltekit-islands:
-        specifier: file:sveltekit-islands-0.0.1.tgz
-        version: file:sveltekit-islands-0.0.1.tgz(svelte@5.19.6)
+        specifier: file:sveltekit-islands-0.0.2.tgz
+        version: file:sveltekit-islands-0.0.2.tgz(svelte@5.19.6)
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^4.0.0
@@ -1099,9 +1099,9 @@ packages:
     resolution: {integrity: sha512-6ydekB3qyqUal+UhfMjmVOjRGtxysR8vuiMhi2nwuBtPJWnctVlsGspjVFB05qmR+TXI1emuqtZt81c0XiFleA==}
     engines: {node: '>=18'}
 
-  sveltekit-islands@file:sveltekit-islands-0.0.1.tgz:
-    resolution: {integrity: sha512-thR7kMzynkj9KSk6VmAmriiwW19ZiAV0tSY7ISKujeKuw1CFMCCMZwSuXDmlmHlS8dLglb+c87sm1K/kRwOWBQ==, tarball: file:sveltekit-islands-0.0.1.tgz}
-    version: 0.0.1
+  sveltekit-islands@file:sveltekit-islands-0.0.2.tgz:
+    resolution: {integrity: sha512-VMq7EK3qkEAwxk5dl3BVbs82s9GiYrwSVFmfZHcsmCMV9SqUPsSHh1s8G5T4X8trXdTIChDT4OSwBV+tU2L7Xg==, tarball: file:sveltekit-islands-0.0.2.tgz}
+    version: 0.0.2
     peerDependencies:
       svelte: ^5.0.0
 
@@ -2168,7 +2168,7 @@ snapshots:
       magic-string: 0.30.17
       zimmerframe: 1.1.2
 
-  sveltekit-islands@file:sveltekit-islands-0.0.1.tgz(svelte@5.19.6):
+  sveltekit-islands@file:sveltekit-islands-0.0.2.tgz(svelte@5.19.6):
     dependencies:
       svelte: 5.19.6
 
