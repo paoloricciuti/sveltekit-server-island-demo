@@ -1,1 +1,1 @@
-export { handle } from 'sveltekit-islands';
+export { handle } from 'sveltekit-server-islands';

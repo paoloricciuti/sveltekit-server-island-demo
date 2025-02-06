@@ -72,7 +72,7 @@
 <script lang="ts">
 	import Stars from '$lib/Stars.svelte';
 
-	import type { ServerIslandProps } from 'sveltekit-islands';
+	import type { ServerIslandProps } from 'sveltekit-server-islands';
 
 	let { data }: ServerIslandProps<typeof load> = $props();
 </script>

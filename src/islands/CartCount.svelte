@@ -8,7 +8,7 @@
 </script>
 
 <script lang="ts">
-	import type { ServerIslandProps } from 'sveltekit-islands';
+	import type { ServerIslandProps } from 'sveltekit-server-islands';
 	import type {} from 'svelte/elements';
 
 	let { data }: ServerIslandProps<typeof load> = $props();
