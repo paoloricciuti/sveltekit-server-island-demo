@@ -18,8 +18,8 @@ importers:
         specifier: ^5.5.3
         version: 5.5.3(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.6)(vite@6.0.11(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.6)(vite@6.0.11(jiti@1.21.7)(yaml@2.7.0)))(rollup@4.32.1)
       sveltekit-server-islands:
-        specifier: ^0.0.4
-        version: 0.0.4(svelte@5.19.6)
+        specifier: ^0.0.7
+        version: 0.0.7(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.6)(vite@6.0.11(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.6)(vite@6.0.11(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.6)
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^4.0.0
@@ -1099,9 +1099,10 @@ packages:
     resolution: {integrity: sha512-6ydekB3qyqUal+UhfMjmVOjRGtxysR8vuiMhi2nwuBtPJWnctVlsGspjVFB05qmR+TXI1emuqtZt81c0XiFleA==}
     engines: {node: '>=18'}
 
-  sveltekit-server-islands@0.0.4:
-    resolution: {integrity: sha512-i/+ia4AaXttM+NfGbif/g+7PD2yct6UdmuLdFR/JN9HMt9EhGrRBNXBj5FmsiWi4X/7oS3YEf8+Q7eYTAugsXw==}
+  sveltekit-server-islands@0.0.7:
+    resolution: {integrity: sha512-QNFp6/XR9wp3peEtRtJaN+gYpZg6ea5+TW6AcZEII4Wo1plNgU7BXU4lfMUkSztfKwQEJKEHXbwprVUrOVOIkA==}
     peerDependencies:
+      '@sveltejs/kit': ^2.0.0
       svelte: ^5.0.0
 
   tailwindcss@3.4.17:
@@ -2167,8 +2168,9 @@ snapshots:
       magic-string: 0.30.17
       zimmerframe: 1.1.2
 
-  sveltekit-server-islands@0.0.4(svelte@5.19.6):
+  sveltekit-server-islands@0.0.7(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.6)(vite@6.0.11(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.6)(vite@6.0.11(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.6):
     dependencies:
+      '@sveltejs/kit': 2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.6)(vite@6.0.11(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.6)(vite@6.0.11(jiti@1.21.7)(yaml@2.7.0))
       svelte: 5.19.6
 
   tailwindcss@3.4.17:

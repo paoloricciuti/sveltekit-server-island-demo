@@ -87,9 +87,9 @@
 </script>
 
 <script lang="ts">
-	import type { ServerIslandProps } from 'sveltekit-server-islands';
+	import type { ServerIslandsProps } from 'sveltekit-server-islands';
 
-	let { data }: ServerIslandProps<typeof load> = $props();
+	let { data }: ServerIslandsProps<typeof load> = $props();
 </script>
 
 <div class="space-y-6">

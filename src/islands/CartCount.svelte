@@ -1,17 +1,19 @@
 <script lang="ts" module>
-	import type { RequestEvent } from '@sveltejs/kit';
+	import type {
+		ServerIslandsEvent,
+		ServerIslandsProps,
+	} from 'sveltekit-server-islands';
 
-	export function load({ cookies }: RequestEvent) {
-		const count = +(cookies.get('cart') ?? '0');
+	export function load(event: ServerIslandsEvent) {
+		const count = +(event.cookies.get('cart') ?? '0');
 		return { count };
 	}
 </script>
 
 <script lang="ts">
-	import type { ServerIslandProps } from 'sveltekit-server-islands';
 	import type {} from 'svelte/elements';
 
-	let { data }: ServerIslandProps<typeof load> = $props();
+	let { data }: ServerIslandsProps<typeof load> = $props();
 
 	let writable_count = $derived.by(() => {
 		let count = $state({ current: data?.count });
